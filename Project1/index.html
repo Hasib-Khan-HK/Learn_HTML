@@ -58,6 +58,24 @@
       text-align: center;
       padding: 15px;
     }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #555;
+    }
   </style>
 </head>
 <body>
@@ -94,16 +112,17 @@
     <div class="card">
       <h3>Project 3</h3>
       <p>Description of your project.</p>
+      
     </div>
   </div>
 </section>
 
 <section id="contact">
   <h2>Contact Me</h2>
-  <form>
-    <input type="text" placeholder="Your Name" required><br><br>
-    <input type="email" placeholder="Your Email" required><br><br>
-    <textarea placeholder="Your Message" required></textarea><br><br>
+  <form action="success.html">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
     <button type="submit">Send</button>
   </form>
 </section>
@@ -114,3 +133,9 @@
 
 </body>
 </html>
+
+
+<!-- ================= SECOND PAGE ================= -->
+
+<!-- Save this part as success.html in the same folder -->
+
